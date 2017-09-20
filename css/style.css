@@ -1,0 +1,185 @@
+/* basic styles */
+*{
+    box-sizing: border-box;
+}
+.clearfix::after {
+    clear: both;
+    display: block;
+    content: "";
+}
+.container{
+    background: url("../img/universe.jpg") no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 1265px;
+    padding: 20px 0 0 10px;
+}
+.main-wrapper{
+    margin: 0 auto;
+}
+.galaxy{
+    position: relative;
+    height: 100vh;
+}
+.sun{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url(../img/sun.png);
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    animation: mySun 7s linear infinite;
+    margin: auto;
+}
+.mercury{
+    background: url("../img/mercury.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    width: 10px;
+    height: 10px;
+    top: 213px;
+    transform-origin: 0px;
+    position: absolute;
+    left: 630px;
+    animation: myMercury 4s linear infinite;
+}
+.venus{
+    background: url("../img/venus.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    width: 25px;
+    height: 25px;
+    top: 205px;
+    transform-origin: 0px;
+    position: absolute;
+    left: 630px;
+    animation: myVenus 3s linear infinite;
+}
+.earth{
+    background: url("../img/earth.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    width: 25px;
+    height: 25px;
+    top: 205px;
+    transform-origin: 0px;
+    position: absolute;
+    left: 630px;
+    animation: myEarth 5s linear infinite;
+}
+.mars{
+    background: url("../img/mars.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    width: 10px;
+    height: 10px;
+    top: 205px;
+    transform-origin: 0px;
+    position: absolute;
+    left: 630px;
+    animation: myMars 6s linear infinite;
+}
+.jupiter{
+    background: url("../img/jupiter.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    top: 205px;
+    transform-origin: 0px;
+    position: absolute;
+    left: 630px;
+    animation: myJupiter 10s linear infinite;
+}
+.saturn{
+    background: url("../img/saturn.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    width: 40px;
+    height: 40px;
+    top: 205px;
+    transform-origin: 0px;
+    position: absolute;
+    left: 630px;
+    animation: mySaturn 10s linear infinite;
+}
+.uranus{
+    background: url("../img/uranus.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    width: 40px;
+    height: 40px;
+    top: 205px;
+    transform-origin: 0px;
+    position: absolute;
+    left: 630px;
+    animation: myUranus 8s linear infinite;
+}
+.neptune{
+    background: url("../img/neptune.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    width: 40px;
+    height: 40px;
+    top: 205px;
+    transform-origin: 0px;
+    position: absolute;
+    left: 630px;
+    animation: myNeptune 13s linear infinite;
+}
+
+
+@keyframes mySun {
+    from { transform: rotate(0deg) translateX(0px) rotate(-360deg); }
+    to   { transform: rotate(0deg) translateX(0px) rotate(0deg); }
+}
+@keyframes myMercury {
+    from { transform: rotate(0deg) translateX(50px) rotate(360deg); }
+    to   { transform: rotate(360deg) translateX(50px) rotate(-360deg); }
+}
+@keyframes myVenus {
+    from { transform: rotate(0deg) translateX(70px) rotate(360deg); }
+    to   { transform: rotate(360deg) translateX(70px) rotate(-360deg); }
+}
+@keyframes myEarth {
+    from { transform: rotate(0deg) translateX(90px) rotate(360deg); }
+    to   { transform: rotate(360deg) translateX(90px) rotate(-360deg); }
+}
+@keyframes myMars{
+    from { transform: rotate(0deg) translateX(110px) rotate(360deg); }
+    to   { transform: rotate(360deg) translateX(110px) rotate(-360deg); }
+}
+@keyframes myJupiter{
+    from { transform: rotate(0deg) translateX(130px) rotate(360deg); }
+    to   { transform: rotate(360deg) translateX(130px) rotate(-360deg); }
+}
+@keyframes mySaturn{
+    from { transform: rotate(0deg) translateX(160px) rotate(360deg); }
+    to   { transform: rotate(360deg) translateX(160px) rotate(-360deg); }
+}
+@keyframes myUranus{
+    from { transform: rotate(0deg) translateX(180px) rotate(360deg); }
+    to   { transform: rotate(360deg) translateX(180px) rotate(-360deg); }
+}
+@keyframes myNeptune{
+    from { transform: rotate(0deg) translateX(200px) rotate(360deg); }
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+
+
+
+/* header end */
+
+
+/* main */
+
+
+/* main end */
+
+/* footer */
+/* footer end */
